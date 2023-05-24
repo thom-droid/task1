@@ -1,4 +1,4 @@
-package voucher;
+package com.sharetreats.voucher;
 
 import org.junit.jupiter.api.Test;
 

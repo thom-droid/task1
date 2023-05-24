@@ -1,4 +1,4 @@
-package voucher;
+package com.sharetreats.voucher;
 
 import java.time.LocalDateTime;
 

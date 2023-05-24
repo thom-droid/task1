@@ -1,8 +1,8 @@
 package com.sharetreats.voucher;
 
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
-import mock.MockupData;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
+import com.sharetreats.mock.MockupData;
 
 import java.util.Objects;
 
@@ -58,10 +58,6 @@ public class VoucherServiceImpl implements VoucherService {
     private VoucherServiceImpl(VoucherRepository voucherRepository) {
         this.voucherRepository = voucherRepository;
     }
-
-//    public VoucherServiceImpl(VoucherRepository voucherRepository) {
-//        this.voucherRepository = voucherRepository;
-//    }
 
     /**
      * <p>
@@ -119,7 +115,7 @@ public class VoucherServiceImpl implements VoucherService {
      *      </li>
      *      <li>
      *          사용할 수 있는 상태라면 {@link Voucher#updateAsUsed}를 호출합니다.
-     *          이 메서드는 교환권의 상태를 {@link voucher.Voucher.Status#USED}로,
+     *          이 메서드는 교환권의 상태를 {@link com.sharetreats.voucher.Voucher.Status#USED}로,
      *          {@code Voucher.usedDate}를 현재 요청 날짜로 변경한 새로운 {@code Voucher}를 리턴합니다.
      *      </li>
      *      <li>
@@ -131,7 +127,7 @@ public class VoucherServiceImpl implements VoucherService {
      *
      * @param   shopCode 상점코드 문자열
      * @param   itemCode 상품 교환권 코드
-     * @throws  CustomRuntimeException {@code Voucher.Status.USED}, {@code Voucher.Status.EXPIRED} 일 때,
+     * @throws  CustomRuntimeException {@code Status.USED}, {@code Status.EXPIRED} 일 때,
      *          {@code itemCode, shopCode}가 {@code null}일 때
      */
 
@@ -153,4 +149,7 @@ public class VoucherServiceImpl implements VoucherService {
     private Voucher getVoucherIfValidated(String code) {
         Objects.requireNonNull(code);
         return voucherRepository.findByCode(code).orElseThrow(
-                () -> new CustomRuntimeException(CustomRuntimeExceptionCode.NOT_VALID_CODE)
+                () -> new CustomRuntimeException(CustomRuntimeExceptionCode.NOT_VALID_CODE));
+    }
+
+}

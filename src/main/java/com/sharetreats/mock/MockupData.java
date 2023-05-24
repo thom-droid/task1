@@ -1,7 +1,6 @@
-package mock;
+package com.sharetreats.mock;
 
-import voucher.Voucher;
-
+import com.sharetreats.voucher.Voucher;
 
 /** database 역할을 하는 인터페이스입니다. */
 

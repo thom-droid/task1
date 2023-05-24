@@ -1,10 +1,10 @@
-package command;
+package com.sharetreats.command;
 
-import code.CodeGeneratorConfigGetter;
-import code.CodeGeneratorConfigure;
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
-import voucher.VoucherService;
+import com.sharetreats.code.CodeGeneratorConfigGetter;
+import com.sharetreats.code.CodeGeneratorConfigure;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
+import com.sharetreats.voucher.VoucherService;
 
 import java.util.Objects;
 import java.util.regex.Pattern;

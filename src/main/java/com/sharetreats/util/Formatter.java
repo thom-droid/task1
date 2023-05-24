@@ -1,4 +1,4 @@
-package util;
+package com.sharetreats.util;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

@@ -1,16 +1,17 @@
-package test_util;
+package com.sharetreats.test_utils;
 
-import code.CodeGeneratorConfigGetter;
-import command.*;
-import command.commands.Check;
-import command.commands.Claim;
-import command.commands.Exit;
-import command.commands.Help;
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
-import mock.MockupData;
-import voucher.VoucherService;
-import voucher.VoucherServiceImpl;
+import com.sharetreats.code.CodeGeneratorConfigGetter;
+import com.sharetreats.command.Command;
+import com.sharetreats.command.CommandEnumWrapper;
+import com.sharetreats.command.commands.Check;
+import com.sharetreats.command.commands.Claim;
+import com.sharetreats.command.commands.Exit;
+import com.sharetreats.command.commands.Help;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
+import com.sharetreats.mock.MockupData;
+import com.sharetreats.voucher.VoucherService;
+import com.sharetreats.voucher.VoucherServiceImpl;
 
 import java.lang.reflect.Constructor;
 import java.util.Arrays;

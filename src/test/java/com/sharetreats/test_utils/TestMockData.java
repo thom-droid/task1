@@ -1,23 +1,22 @@
-package test_util;
+package com.sharetreats.test_utils;
 
-import code.CodeGenerator;
-import code.CodeGeneratorConfigure;
-import code.CodeGeneratorConfigGetter;
-import mock.MockupData;
-import mock.MockupDataImpl;
-import shop.Item;
-import shop.Shop;
-import voucher.Voucher;
-import voucher.VoucherDate;
+import com.sharetreats.code.CodeGenerator;
+import com.sharetreats.code.CodeGeneratorConfigGetter;
+import com.sharetreats.code.CodeGeneratorConfigure;
+import com.sharetreats.mock.MockupData;
+import com.sharetreats.shop.Item;
+import com.sharetreats.shop.Shop;
+import com.sharetreats.voucher.Voucher;
+import com.sharetreats.voucher.VoucherDate;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Period;
 import java.util.*;
 
-import static voucher.Voucher.Status.USED;
+import static com.sharetreats.voucher.Voucher.Status.USED;
 
-/** 테스트에 맞게 데이터를 가공하기 위해 만든 클래스입니다. 실제 런타임 시 사용되는 클래스는 {@link MockupDataImpl} 입니다.
+/** 테스트에 맞게 데이터를 가공하기 위해 만든 클래스입니다. 실제 런타임 시 사용되는 클래스는 {@link com.sharetreats.mock.MockupDataImpl} 입니다.
  * 해당 타입의 인스턴스가 생성될 때 상품 교환권({@link Voucher})이 20장 발급되어 {@code voucherStorage}에 저장됩니다.
  * 상품 코드의 길이, 문자열타입 등의 설정은 클래스의 생성자 파라미터 값인 {@link CodeGeneratorConfigure}의 설정을 통해 가능합니다. */
 

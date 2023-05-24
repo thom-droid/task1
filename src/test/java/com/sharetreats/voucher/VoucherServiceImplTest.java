@@ -1,9 +1,9 @@
-package voucher;
+package com.sharetreats.voucher;
 
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
-import test_util.CommandTestUtils;
-import test_util.TestMockData;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
+import com.sharetreats.test_utils.CommandTestUtils;
+import com.sharetreats.test_utils.TestMockData;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

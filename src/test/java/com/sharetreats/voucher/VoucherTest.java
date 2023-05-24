@@ -1,8 +1,8 @@
-package voucher;
+package com.sharetreats.voucher;
 
+import com.sharetreats.shop.Item;
+import com.sharetreats.shop.Shop;
 import org.junit.jupiter.api.Test;
-import shop.Item;
-import shop.Shop;
 
 import java.time.LocalDateTime;
 

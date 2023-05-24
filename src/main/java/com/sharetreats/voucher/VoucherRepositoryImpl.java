@@ -1,11 +1,11 @@
 package com.sharetreats.voucher;
 
-import mock.MockupData;
-import mock.MockupDataImpl;
+import com.sharetreats.mock.MockupData;
+import com.sharetreats.mock.MockupDataImpl;
 
 import java.util.Optional;
 
-/** {@link VoucherRepository} 구현체입니다. {@link MockupData} 인터페이스를 주입하여 테스트할 때에는 다른 구현체를 사용할 수 있도록 했습니다. */
+/** {@link VoucherRepository} 구현체입니다. {@link com.sharetreats.mock.MockupData} 인터페이스를 주입하여 테스트할 때에는 다른 구현체를 사용할 수 있도록 했습니다. */
 
 public class VoucherRepositoryImpl implements VoucherRepository {
 

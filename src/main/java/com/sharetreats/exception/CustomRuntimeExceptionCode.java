@@ -1,4 +1,4 @@
-package exception;
+package com.sharetreats.exception;
 
 public enum CustomRuntimeExceptionCode {
 

@@ -1,11 +1,11 @@
-package command;
+package com.sharetreats.command;
 
-import command.commands.Check;
-import command.commands.Claim;
-import command.commands.Exit;
-import command.commands.Help;
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
+import com.sharetreats.command.commands.Check;
+import com.sharetreats.command.commands.Claim;
+import com.sharetreats.command.commands.Exit;
+import com.sharetreats.command.commands.Help;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
 
 import java.util.Arrays;
 import java.util.Locale;

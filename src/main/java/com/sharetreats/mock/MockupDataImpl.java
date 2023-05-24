@@ -1,12 +1,12 @@
-package mock;
+package com.sharetreats.mock;
 
-import code.CodeGenerator;
-import code.CodeGeneratorConfigure;
-import code.CodeGeneratorConfigGetter;
-import shop.Item;
-import shop.Shop;
-import voucher.Voucher;
-import voucher.VoucherDate;
+import com.sharetreats.code.CodeGenerator;
+import com.sharetreats.code.CodeGeneratorConfigGetter;
+import com.sharetreats.code.CodeGeneratorConfigure;
+import com.sharetreats.shop.Item;
+import com.sharetreats.shop.Shop;
+import com.sharetreats.voucher.Voucher;
+import com.sharetreats.voucher.VoucherDate;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package command;
+package com.sharetreats.command;
 
 /**
  * {@link CommandEnumWrapper}를 생성하기 위한 구현체입니다. 생성자를 통해 커맨드 구현체를 담고 있는 enum 타입을

@@ -1,4 +1,4 @@
-package exception;
+package com.sharetreats.exception;
 
 public class CustomRuntimeException extends RuntimeException {
 

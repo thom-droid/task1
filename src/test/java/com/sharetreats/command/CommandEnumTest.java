@@ -1,12 +1,13 @@
-package command;
+package com.sharetreats.command;
 
-import command.commands.Check;
-import test_util.CommandTestUtils;
-import test_util.TestMockData;
+import com.sharetreats.command.commands.Check;
+import com.sharetreats.test_utils.CommandTestUtils;
+import com.sharetreats.test_utils.TestMockData;
+import com.sharetreats.voucher.Voucher;
 import org.junit.jupiter.api.Test;
-import voucher.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CommandEnumTest {
 

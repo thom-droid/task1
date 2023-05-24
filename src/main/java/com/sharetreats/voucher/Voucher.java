@@ -1,9 +1,9 @@
-package voucher;
+package com.sharetreats.voucher;
 
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
-import shop.Item;
-import util.Formatter;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
+import com.sharetreats.shop.Item;
+import com.sharetreats.util.Formatter;
 
 import java.time.LocalDateTime;
 
@@ -64,9 +64,9 @@ public final class Voucher {
     }
 
     public void checkAvailability() {
-        if(this.status == Voucher.Status.EXPIRED)
+        if(this.status == Status.EXPIRED)
             throw new CustomRuntimeException(CustomRuntimeExceptionCode.EXPIRED_CODE);
-        if (this.status == Voucher.Status.USED) {
+        if (this.status == Status.USED) {
             throw new CustomRuntimeException(CustomRuntimeExceptionCode.ALREADY_USED_CODE);
         }
     }

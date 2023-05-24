@@ -1,6 +1,8 @@
-import command.*;
-import command.commands.Help;
-import exception.CustomRuntimeException;
+package com.sharetreats;
+
+import com.sharetreats.command.*;
+import com.sharetreats.command.commands.Help;
+import com.sharetreats.exception.CustomRuntimeException;
 
 import java.io.BufferedReader;
 import java.io.IOException;

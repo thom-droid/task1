@@ -1,4 +1,4 @@
-package code;
+package com.sharetreats.code;
 
 import org.junit.jupiter.api.Test;
 

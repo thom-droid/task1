@@ -1,8 +1,8 @@
-package command;
+package com.sharetreats.command;
 
-import exception.CustomRuntimeException;
-import exception.CustomRuntimeExceptionCode;
-import test_util.CommandTestUtils;
+import com.sharetreats.exception.CustomRuntimeException;
+import com.sharetreats.exception.CustomRuntimeExceptionCode;
+import com.sharetreats.test_utils.CommandTestUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
